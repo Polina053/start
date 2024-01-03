@@ -1,0 +1,63 @@
+/* *{
+
+} */
+
+h1, h2 {
+  color: yellow;
+}
+p{
+  color: green;
+}
+span{
+  color: rgb(208, 48, 75);
+}
+p span{
+  color: blueviolet;
+}
+#main{
+color: darkblue;
+}
+.text-center{
+  text-align: center;
+  color: gray;
+}
+div.big-font-size{
+font-size: 20px;
+} 
+.text-center.big-font-size{
+  font-size: 20px;
+}
+/* Если нельзя менять html разметку */
+ul li:first-child{
+  color: red;
+}
+ul li:last-child {
+  color: blue;
+}
+ul li:nth-child(4){
+  color: orange;
+}
+a[href="https://example.org"]{
+  color: green;
+}
+.container{
+  background-color: rgba(230, 0, 38, 0.67);/*полупрозрачность */
+  text-align: center;
+  background-color: hsl(150 30% 60% / 80%);
+  color: black;
+  /* text-align: justify; растягивает текст на ширину блоку */
+}
+
+/* если нет контента */
+.container:empty{
+  background-color: yellow;
+  height: 100px;
+}
+body{
+  background-color: lightblue;
+}
+p{
+  /* height: 200px; */
+  height: auto;
+  width: 500px;
+}

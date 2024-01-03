@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  /* лучше использовать для каждой страницы */
+}
+body{
+  margin: 0;
+  /* лучше использовать для каждой страницы */
+font-family: 'Roboto', sans-serif;
+font-size: 48px;
+font-size: 400;
+}
+header{
+  background-color: yellow;
+  /* height: 100px; */
+  /* padding: ; отступы контента от краёв блока*/
+  /* padding: top right bottom left; */
+  padding: 50px 100px;
+  /* margin: ; отступ блока от краёв вьюпорта и других блоков */
+  margin: 50px auto; /*регуляция по центру по горизонтали для любого устройства */
+  width: 500px;
+}
+strong{
+  font-weight: bolt;
+}
+span{
+  font-weight: 100;
+}
+p{
+  width: 400px;
+  max-width: 0 auto;
+  /* line-height: ; */
+}
